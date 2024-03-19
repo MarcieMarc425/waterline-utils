@@ -1,6 +1,6 @@
 {
-  "name": "waterline-utils",
-  "version": "1.4.5",
+  "name": "marciemarc425-waterline-utils",
+  "version": "1.4.6",
   "description": "Various utilities for working with Waterline queries and adapters.",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha test/unit --recursive",
@@ -20,9 +20,9 @@
   "author": "Cody Stoltman <particlebanana@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@sailshq/lodash": "^3.10.2",
+    "@sailshq/lodash": "^3.10.4",
     "async": "2.6.4",
-    "flaverr": "^1.1.1",
+    "flaverr": "^1.10.0",
     "fs-extra": "0.30.0",
     "qs": "6.4.1"
   },
@@ -33,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sailshq/waterline-utils.git"
+    "url": "git@github.com:marciemarc425/waterline-utils.git"
   }
 }
