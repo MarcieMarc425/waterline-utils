@@ -11,8 +11,6 @@
   //
   // (or: https://github.com/jshint/jshint/blob/master/examples/.jshintrc)
 
-
-
   //////////////////////////////////////////////////////////////////////
   // NOT SUPPORTED IN SOME JSHINT VERSIONS SO LEAVING COMMENTED OUT:
   //////////////////////////////////////////////////////////////////////
@@ -21,7 +19,6 @@
   //  to be used as dependencies of other developers' modules and apps)
   // "freeze": true,
   //////////////////////////////////////////////////////////////////////
-
 
   //////////////////////////////////////////////////////////////////////
   // EVERYTHING ELSE:
@@ -87,7 +84,7 @@
   // Do NOT allow avant garde use of commas in conditional statements.
   // (this prevents accidentally writing code like:
   //  ```
-  //  if (!_.contains(['+ci', '-ci', '∆ci', '+ce', '-ce', '∆ce']), change.verb) {...}
+  //  if (!_.includes(['+ci', '-ci', '∆ci', '+ce', '-ce', '∆ce']), change.verb) {...}
   //  ```
   //  See the problem in that code?  Neither did we-- that's the problem!)
   "nocomma": true,
@@ -126,5 +123,4 @@
   //  and who might not recognize the subtle, yet critically important differences between our seemingly
   //  between `null` and `undefined`, and the impact on `typeof` checks)
   "-W080": true
-
 }
